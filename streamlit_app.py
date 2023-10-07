@@ -34,5 +34,3 @@ fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 # output to screen as table
 streamlit.dataframe(fruityvice_normalized)
 
-streamlit.header('Test Update') 
-  
